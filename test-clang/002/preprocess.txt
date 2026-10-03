@@ -1,0 +1,16 @@
+# 1 "002/circle_area.c"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 477 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "002/circle_area.c" 2
+
+
+int circle_area(int r) {
+  3 * r * r;
+}
+
+int main(void) {
+  int x = circle_area(2);
+}

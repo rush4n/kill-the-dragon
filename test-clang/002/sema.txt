@@ -1,0 +1,7 @@
+002/circle_area.c:4:10: warning: expression result unused [-Wunused-value]
+    4 |   PI * r * r;
+      |   ~~~~~~ ^ ~
+002/circle_area.c:5:1: warning: non-void function does not return a value [-Wreturn-type]
+    5 | }
+      | ^
+2 warnings generated.

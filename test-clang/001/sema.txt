@@ -1,0 +1,7 @@
+001/add_two_numbers.c:2:5: warning: expression result unused [-Wunused-value]
+    2 |   a + b;
+      |   ~ ^ ~
+001/add_two_numbers.c:3:1: warning: non-void function does not return a value [-Wreturn-type]
+    3 | }
+      | ^
+2 warnings generated.

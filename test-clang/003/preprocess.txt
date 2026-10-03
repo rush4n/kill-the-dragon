@@ -1,0 +1,16 @@
+# 1 "test.c"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 477 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "test.c" 2
+# 1 "./test.h" 1
+
+
+int add_max(int n);
+# 2 "test.c" 2
+
+int add_max(int n) {
+  5 + n;
+}

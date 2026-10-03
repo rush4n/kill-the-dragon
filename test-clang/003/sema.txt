@@ -1,0 +1,7 @@
+003/test.c:4:7: warning: expression result unused [-Wunused-value]
+    4 |   MAX + n;
+      |   ~~~ ^ ~
+003/test.c:5:1: warning: non-void function does not return a value [-Wreturn-type]
+    5 | }
+      | ^
+2 warnings generated.

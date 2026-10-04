@@ -1,0 +1,8 @@
+Notice how freeflow text doesn't bother FileCheck.
+Notice also that FileCheck doesn't care by default about the number of spaces
+CHECK: I    feel
+CHECK: great
+CHECK: today
+CHECK:    How about you?
+CHECK: I don
+CHECK: Meh

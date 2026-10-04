@@ -1,0 +1,7 @@
+we want to match the lines that start with the word Fancy
+
+Ignore this line
+Ignore that line
+Match the next line use a variable that captures Fancy
+Fancy:
+Congratulation!

@@ -1,0 +1,5 @@
+line that we want to match with the CHECK prefix
+line that we want to match with the SECOND prefix
+
+Matching prefix can be interleaved.
+FileCheck follows the all of them

@@ -1,0 +1,5 @@
+Match whatever is not a space for our mystery word
+CHECK: with the word [[OUR_LABEL:[^ ]*]]
+Match the beginning of a line using the regex ^
+CHECK: {{^}}[[OUR_LABEL]]:
+CHECK-NEXT: Congratulation!

@@ -1,0 +1,3 @@
+CHECK: match with the CHECK prefix 
+SECOND: match with the SECOND prefix 
+CHECK: Matching prefix can be interleaved

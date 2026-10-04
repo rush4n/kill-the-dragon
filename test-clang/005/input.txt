@@ -1,0 +1,2 @@
+hello LLVM
+answer = 42

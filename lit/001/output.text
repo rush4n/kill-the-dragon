@@ -1,0 +1,21 @@
+-- Testing: 1 tests, 1 workers --
+PASS: LLVM :: my_file.ll (1 of 1)
+Exit Code: 0
+
+Command Output (stdout):
+--
+# RUN: at line 1
+echo /Users/rushan/Desktop/llvm-project/llvm/test/my_file.ll /Users/rushan/Desktop/clang-build/test/Output/my_file.ll.tmp
+# executed command: echo /Users/rushan/Desktop/llvm-project/llvm/test/my_file.ll /Users/rushan/Desktop/clang-build/test/Output/my_file.ll.tmp
+# .---command stdout------------
+# | /Users/rushan/Desktop/llvm-project/llvm/test/my_file.ll /Users/rushan/Desktop/clang-build/test/Output/my_file.ll.tmp
+# `-----------------------------
+
+--
+
+********************
+
+Testing Time: 0.08s
+
+Total Discovered Tests: 1
+  Passed: 1 (100.00%)

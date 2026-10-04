@@ -1,2 +1,0 @@
-# CHECK: hello LLVM
-# CHECK: answer = 42

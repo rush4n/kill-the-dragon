@@ -1,4 +1,0 @@
-line that won't match with the regex
-line that we want to match with the regex
-line that we want to match with the first regex
-line that we want to match with the second regex

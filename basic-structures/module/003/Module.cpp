@@ -25,7 +25,7 @@ main() {
 
   llvm::Function *Foo = llvm::Function::Create(Example, llvm::GlobalValue::ExternalLinkage, "foo", MyModule);
 
-  llvm::Function *Dummy = llvm::Function::Create(Example, llvm::GlobalValue::ExternalLinkage, "dummy", MyModule);
+  llvm::Function *Dummy = llvm::Function::Create(Example, llvm::GlobalValue::ExternalLinkage, "main", MyModule);
 
   int TotalFunctions = 0;
 

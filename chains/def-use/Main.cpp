@@ -29,11 +29,21 @@ main() {
   Value *A = Foo->getArg(0);
   Value *I = Builder.CreateAdd(A, A, "sum1");
   Value *I2 = Builder.CreateAdd(A, I, "sum2");
-  Value *I3 = Builder.CreateAdd(I2, A, "sum3");
+  Value *I3 = Builder.CreateAdd(I, A, "sum3");
   Builder.CreateRet(I3);
 
+  outs() << "All Uses of %0: \n";
   for (Use &MyUse : A->uses()) {
-    outs() << MyUse.getOperandNo() << "\n";
+    MyUse.get()->print(outs());
+    outs() << " is used at " <<MyUse.getOperandNo() << " in\n";
+    MyUse.getUser()->print(outs());
+    outs() << "\n";
+  }
+
+  outs() << "\nAll Uses of %sum1: \n";
+  for (Use &MyUse : I->uses()) {
+    MyUse.get()->print(outs());
+    outs() << " is used at " <<MyUse.getOperandNo() << " in\n";
     MyUse.getUser()->print(outs());
     outs() << "\n";
   }
